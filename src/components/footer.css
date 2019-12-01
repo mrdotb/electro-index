@@ -1,0 +1,36 @@
+:root {
+  --footer-link: #6f6f73;
+  --footer-title: #070043;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__title {
+  font-size: 1.25em;
+}
+.footer__title a {
+  text-decoration: none;
+  color: var(--footer-title);
+}
+.footer__link {
+  padding: 0 10px;
+}
+.footer__link a {
+  text-decoration: none;
+  color: var(--footer-link);
+  font: 1em "bm-light";
+}
+.footer__nav {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--footer-nav-text);
+}
+.footer__spacer {
+  width: 200px;
+}

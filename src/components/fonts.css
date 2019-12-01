@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'bm-light';
+  src: url('../fonts/bm-light.woff2') format('woff2'),
+  url('../fonts/bm-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bm-reg';
+  src: url('../fonts/bm-reg.woff2') format('woff2'),
+  url('../fonts/bm-reg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bm-bold';
+  src: url('../fonts/bm-bold.woff2') format('woff2'),
+  url('../fonts/bm-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

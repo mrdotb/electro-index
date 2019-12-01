@@ -620,3 +620,16 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.rack {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.rack__first {
+  width: 41.65%;
+}
+.rack__second {
+  width: 58.25%;
+}
